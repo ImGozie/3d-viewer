@@ -1,13 +1,11 @@
-import { useState } from 'react'
-import './App.css'
+import React, { useState } from 'react';
 
-function App() {
-
+const App: React.FC = () => {
   return (
-    <>
-      
-    </>
-  )
+    <div>
+      <h1>Hello World</h1>
+    </div>
+  );
 }
 
-export default App
+export default App;
